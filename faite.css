@@ -1,0 +1,91 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #EFE2BA;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+li a:hover{
+    background-color: purple;
+}
+
+.active{
+    background-color: #bf40bf ;
+}
+
+body{
+    background-color: #EFE2BA;
+  
+}
+#logo {
+    border-radius: 50%; 
+  }
+input {
+    width: 375px;
+    height: 25px;
+   }
+#CM{
+    width: 375px;
+    height: 375px;
+}
+#slideshow {
+    overflow: hidden;
+    height: 300px;
+    width: 500;
+    margin: 0 auto;
+}
+ 
+
+ 
+.slide {
+    float: left;
+    height: 500;
+    width: 500;
+}
+ 
+
+ 
+.slide-wrapper {
+     
+   
+    width: calc(500px * 4);
+     
+   
+    animation: slide 10s ease infinite;
+}
+ 
+
+
+ 
+@keyframes slide {
+     
+    
+    30% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+         }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    
+    }

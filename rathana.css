@@ -1,0 +1,90 @@
+body { background-color: #EFE2BA; 
+	color: #A36CD8;
+}
+nav {  
+  
+  color:#B188B8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:x-large;
+	border: 3px solid ;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #EFE2BA;
+    width: 100%;
+
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color:black;
+    text-align: center;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+a {color:#B188B8;
+	
+}
+
+li a:hover{
+    background-color: purple;
+}
+
+.active{
+    background-color: #bf40bf ;
+}
+
+
+h1{color:#A36CD8;
+font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+font-size:1.5em;
+font-weight:bold;
+margin-top:0px;
+margin-bottom:0px;
+color:#AE89CB;
+}
+
+
+
+h2 {text-align:center;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+
+table {border:#690DB7 solid;
+	
+}
+tr {background-color:white;
+
+}
+td {border: #7F6992 solid ;
+}
+
+hr { border-top: 5px dotted #9A65B5;
+	
+}
+.row {color:#A36CD8;
+}
+
+.column { float: left;
+	width: 400px;
+	padding: 10px;
+	height: 300px;
+}
+
+#border{
+    border-width: 1cm;
+    border-style: solid;
+    
+}
+#logo {
+    border-radius: 50%;
+   
+  }
